@@ -61,4 +61,6 @@ const JS = () => {
         cb()
     })
 }
+exports.HAML = HAML
+exports.TS = TS
 exports.default = parallel(Server, HAML, HTML, STYL, CSS, TS, JS)

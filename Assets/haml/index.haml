@@ -1,1 +1,76 @@
+!!!
+%html(lang="en")
+    %head
+        %meta(charset="UTF-8")
+        %meta(content="IE=edge" http-equiv="X-UA-Compatible")
+        %meta(content="width=device-width, initial-scale=1.0" name="viewport")
+        %title Naren
+        %link(rel="stylesheet" href="../styl/style.styl")
+        %script(src="../ts/script.ts")
+    %body
+        -# Header
+        %header
+            -# Logo
+            %span
+                %a.nav_logo(href="#") Naren
+            -# Navbar
+            %nav
+                %ul.nav_list
+                    %li.nav_item
+                        %a.nav_link(href="#Home") Home
+                    %li.nav_item
+                        %a.nav_link(href="#About") About
+                    %li.nav_item
+                        %a.nav_link(href="Skills") Skills
+                    %li.nav_item
+                        %a.nav_link(href="#Work") Work
+                    %li.nav_item
+                        %a.nav_link(href="#Contact") Contact
+                %span.nav_toggle#nav-toggle
+                    %i
+        %main
+            %section
 
+                %figure
+                    %img
+            %section
+                %figure
+                    %img
+
+            %section
+
+                %figure
+                    %img
+            %section
+                %figure
+                    %img
+                %figure
+                    %img
+                %figure
+                    %img
+                %figure
+                    %img
+                %figure
+                    %img
+                %figure
+                    %img
+            -# Contact
+            %section#Contact.contact.section
+                %form.contact_form(action="" enctype="Multipart/form-data" method="POST")
+                    %legend.sction-title Contact
+                    %input.contact_input(type="text" placeholder="Name")
+                    %input.contact_input(type="email" placeholder="Mail")
+                    %textarea.contact_input(cols=0 rows=10)
+                    %input.button.contact_button(type="submit" placeholder="Submit")
+
+        -# Footer
+        %footer.footer
+            %h1.footer_title Naren
+            .footer_social
+                %a.footer_icon(href="#")
+                    %i
+                %a.footer_icon(href="#")
+                    %i
+                %a.footer_icon(href="#")
+                    %i
+            %p.footer_copy &#169; All rights reserved
