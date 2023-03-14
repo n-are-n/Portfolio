@@ -415,6 +415,80 @@ img {
 {
   color: skyblue;
 }
+.linkedin:hover
+{
+  color: #0A66C2;
+}
+.envelope:hover
+{
+  color: greenyellow;
+}
+.html
+{
+  color: orange;
+}
+.html_bg
+{
+  animation : html_bar_width 4s normal;
+  background-color: orange;
+}
+.css_bg
+{
+  animation : bar_width 4s normal;
+  background-color: blue;
+}
+.js_bg
+{
+  animation : js_bar_width 4s normal;
+  background-color: yellow;
+}
+.sql_bg
+{
+  animation : bar_width 4s normal;
+  background-color: white;
+}
+@keyframes html_bar_width {
+  from
+  {
+    width: 0%;
+  }
+  to
+  {
+    width : 95%;
+  }
+}
+@keyframes bar_width {
+  from
+  {
+    width: 0%;
+  }
+  to
+  {
+    width : 85%;
+  }
+}
+@keyframes js_bar_width {
+  from
+  {
+    width: 0%;
+  }
+  to
+  {
+    width : 65%;
+  }
+}
+.css
+{
+  color: blue;
+}
+.js
+{
+  color: yellow;
+}
+.sql
+{
+  color: white;
+}
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
