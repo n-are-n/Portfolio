@@ -90,7 +90,9 @@ img {
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
-
+.section:last-child {
+  padding-top: 7rem;
+}
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
@@ -439,7 +441,7 @@ img {
 }
 .js_bg
 {
-  animation : js_bar_width 4s normal;
+  /* animation : js_bar_width 4s normal; */
   background-color: yellow;
 }
 .sql_bg
@@ -492,8 +494,6 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
-
-/* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
     row-gap: 2rem;
@@ -502,7 +502,6 @@ img {
     width: 200px;
   }
 }
-
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
@@ -544,7 +543,6 @@ img {
     justify-items: center;
   }
 }
-
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -601,7 +599,6 @@ img {
     column-gap: 2rem;
   }
 }
-
 @media screen and (min-width: 992px) {
   .bd-grid {
     margin-left: auto;

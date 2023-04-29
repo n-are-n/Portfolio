@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="Assets/css/style.css">
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+            <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="Assets/js/script.js" async></script>
@@ -112,7 +112,7 @@
                                 <i class='bx bxl-javascript skills__icon js' ></i>
                                 <span class="skills__name">JAVASCRIPT</span>
                             </div>
-                            <div class="skills__bar skills__js js_bg">
+                            <div class="skills__bar skills__js js_bg" id="js-bar">
                             </div>
                             <div>
                                 <span class="skills__percentage">65%</span>
@@ -161,11 +161,11 @@
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
                 <div class="contact__container bd-grid">
-                    <form class="contact__form" id="Form">
+                    <form class="contact__form" id="Form" onsubmit="Validate()">
                         <input type="text" id="Name" placeholder="Name" class="contact__input" required />
                         <input type="mail" id="Mail" placeholder="Email" class="contact__input" required />
                         <textarea id="Comment" cols="0" rows="10" class="contact__input" required></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
+                        <input type="submit" value="Submit" class="contact__button button">
                     </form>
                 </div>
             </section>
